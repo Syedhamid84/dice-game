@@ -96,7 +96,7 @@ const DiceDesign = () => {
                     <img src={dice6} alt="" className="img2" />
                 </div>
             </div>
-
+            {/* test */}
             <button
                 onClick={RollDiceHandle}
                 className="px-5 py-3 border-2 hover:border-red-500 hover:text-white hover:bg-black mt-4 rounded-xl text-lg "
