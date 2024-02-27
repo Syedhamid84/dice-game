@@ -71,9 +71,10 @@ const DiceDesign = () => {
             if (randomNumber1 === randomNumber2) {
                 document.querySelector("h1").innerHTML = "DRAW!";
             } else if (randomNumber1 > randomNumber2) {
-                document.querySelector("h1").innerHTML = player1Name + "    " + "WINS!";
+                document.querySelector("h1").innerHTML = player1Name + " WINS!";
+
             } else {
-                document.querySelector("h1").innerHTML = player2Name + "   " + "WINS!";
+                document.querySelector("h1").innerHTML = player2Name + " WINS!";
             }
         }, 2500);
     };
